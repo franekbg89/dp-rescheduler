@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.2rem;
+
+  .doctorName {
+    font-weight: bold;
+  }
+
+  .dateContainer {
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 0.4rem;
+    display: flex;
+    align-items: center;
+
+    .date {
+      &.lineThrough {
+        text-decoration: line-through;
+      }
+    }
+  }
+
+  .iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.5rem;
+
+    .icon {
+      fill: gray;
+    }
+  }
+}

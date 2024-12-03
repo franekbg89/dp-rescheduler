@@ -1,0 +1,30 @@
+.btn {
+  background-color: #eff4fd;
+  color: #2e60a5;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+  border-color: transparent;
+  font-size: 1rem;
+  border-radius: 5px;
+
+  &:hover {
+    border: 2px solid #2e60a5;
+  }
+
+  &.selected {
+    background-color: #2e60a5;
+    color: white;
+    border-color: #2e60a5;
+  }
+
+  &.unavailable {
+    text-decoration: line-through;
+    cursor: not-allowed;
+    background-color: transparent;
+    color: gray;
+
+    &:hover {
+      border-color: transparent;
+    }
+  }
+}
