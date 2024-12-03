@@ -1,4 +1,4 @@
-import { WeeklySlots } from "../../types/slots-service";
+import { WeeklySlots } from "../../../types/slots-service";
 import { CalendarDay } from "./CalendarDay";
 import styles from "./CalendarWeek.module.scss";
 

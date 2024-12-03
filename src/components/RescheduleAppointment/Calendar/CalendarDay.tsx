@@ -1,7 +1,7 @@
 import { format, isToday, isTomorrow } from "date-fns";
 import styles from "./CalendarDay.module.scss";
 import { CalendarDaySlot } from "./CalendarDaySlot";
-import { Slot } from "../../types/slots-service";
+import { Slot } from "../../../types/slots-service";
 
 const INITIAL_SLOTS_TO_SHOW = 5;
 

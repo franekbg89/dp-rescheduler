@@ -1,7 +1,11 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import React, { useCallback, useEffect, useState } from "react";
-import styles from "./CarouselNavButtons.module.scss";
+
+import { useCallback, useEffect, useState } from "react";
 import classNames from "classnames";
+
+import styles from "./CarouselNavButtons.module.scss";
+
+//react-refresh/only-export-components
 export const usePrevNextButtons = (emblaApi: any) => {
   const [prevBtnDisabled, setPrevBtnDisabled] = useState(true);
   const [nextBtnDisabled, setNextBtnDisabled] = useState(true);
